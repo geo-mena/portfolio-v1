@@ -8,11 +8,11 @@ This website was recreated from scratch by closely studying the design elements 
 
 ## Technical Stack 🧰
 
-- **Languages and Libraries**: Built with Next.js (a React framework) and TypeScript.
-- **Styling**: Tailwind CSS.
-- **Components**: Shadcn/ui.
-- **IDE**: Coded in Visual Studio Code.
-- **Deployment**: Hosted and deployed with Vercel.
+-   **Languages and Libraries**: Built with Next.js (a React framework) and TypeScript.
+-   **Styling**: Tailwind CSS.
+-   **Components**: Shadcn/ui.
+-   **IDE**: Coded in Visual Studio Code.
+-   **Deployment**: Hosted and deployed with Vercel.
 
 ## Design Credits 🎨
 
@@ -28,14 +28,15 @@ This site is not intended as a direct clone of Brittany Chiang's website but rat
 
 ## 🚨 Forking this repo (please read, it's important!) 🚨
 
-I encourage others to learn from and be inspired by the design of this website. However, if you choose to use elements of my code and Brittany's design, **give proper credit to both me and Brittany Chiang** by linking back to both our works. 
+I encourage others to learn from and be inspired by the design of this website. However, if you choose to use elements of my code and Brittany's design, **give proper credit to both me and Brittany Chiang** by linking back to both our works.
 
 Remember, it's essential to respect other people's work! Thanks.
 
 ### TL;DR 📝
-- The design of this website is inspired by and credited to Brittany Chiang.
-- The site was independently coded and developed by me by re-creating Brittany's original design.
-- **You can fork this repo but make sure you attribute by linking back to [brittanychiang.com](https://brittanychiang.com) and [meikopoulos.com](https://meikopoulos.com).**
+
+-   The design of this website is inspired by and credited to Brittany Chiang.
+-   The site was independently coded and developed by me by re-creating Brittany's original design.
+-   **You can fork this repo but make sure you attribute by linking back to [brittanychiang.com](https://brittanychiang.com) and [meikopoulos.com](https://meikopoulos.com).**
 
 ## Getting Started 🚀
 
@@ -58,6 +59,7 @@ npm run build
 ```bash
 npm run dev
 ```
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying the appropriate components/sections. The page auto-updates as you edit and save.
@@ -68,8 +70,8 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+-   [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+-   [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/)
 
