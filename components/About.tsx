@@ -10,48 +10,68 @@ export default function About() {
                 </h2>
             </div>
             <div className="flex flex-col gap-4">
-                <p className="text-start text-muted-foreground lg:px-6">
-                    Throughout my journey from coding to design, I've been
-                    guided by a simple belief:{' '}
-                    <span className="text-white">
-                        technology should feel natural and intuitive.
-                    </span>{' '}
-                    At the crossroads of AI, Web3, and Finance, I focus on
-                    creating user experiences that make complex ideas
-                    accessible.
-                </p>
+                {/* <p className="text-start text-muted-foreground lg:px-6">
+                    As a Full Stack Developer with over 2 years of experience in
+                    the software development industry, I specialize in modern
+                    technologies such as{' '}
+                    <a
+                        className="no-wrap text-primary dark:text-white"
+                        // href="https://vela.exchange"
+                        target="blank"
+                        rel="noopener noreferrer"
+                    >
+                        JavaScript, React, Vue.js, PHP/Laravel, and Node.js.
+                    </a>
+                    My expertise spans from front-end development to
+                    implementing robust architectures and optimizing databases.
+                    I thrive in agile environments, utilizing tools like GitHub,
+                    Notion, and Slack to maintain efficient and collaborative
+                    workflows.
+                </p> */}
                 <p className="text-start  text-muted-foreground lg:px-6">
-                    Currently, I'm leading product design at a stealth AI
-                    startup that's rethinking how we interact with money. I'm
-                    also steering the design team at{' '}
+                    As a Full Stack Developer with over two years of experience,
+                    I specialize in building scalable, maintainable, and
+                    efficient web applications using modern technologies like{' '}
                     <a
                         className="no-wrap text-primary dark:text-white"
-                        href="https://vela.exchange"
+                        // href="https://vela.exchange"
                         target="blank"
                         rel="noopener noreferrer"
                     >
-                        Vela Exchange
-                    </a>
-                    , a decentralized platform for perpetual trading. As a
-                    co-founder, designer, and developer at{' '}
-                    <a
-                        className="no-wrap text-primary dark:text-white"
-                        href="https://swoop.exchange"
-                        target="blank"
-                        rel="noopener noreferrer"
-                    >
-                        Swoop Exchange
-                    </a>
-                    , I've helped build a meta-aggregation engine used daily by
-                    thousands of users.
+                        JavaScript, React, Vue.js, PHP/Laravel, and Node.js.
+                    </a>{' '}
+                    My skillset covers both front-end development and back-end
+                    architecture, with a strong focus on optimizing databases
+                    and ensuring seamless user experiences.
                 </p>
                 <p className="text-start text-muted-foreground lg:px-6">
-                    Across all the applications I've been involved with, I've
-                    had the privilege to contribute in facilitating billions in
-                    transaction volume. I believe in making technology feel
-                    human—designing applications and experiences that are
-                    seamless extensions of ourselves, serving real needs with
-                    simplicity and clarity.
+                    I thrive in agile environments, working closely with teams
+                    using GitHub, Notion, Slack, and other collaboration tools
+                    to maintain productivity and innovation. My approach is
+                    problem-solving oriented, which allows me to quickly adapt
+                    to new challenges, deliver robust solutions, and
+                    continuously improve development processes.
+                </p>
+                <p className="text-start text-muted-foreground lg:px-6">
+                    Passionate about web technologies and the developer
+                    community, I actively seek out opportunities to learn, share
+                    knowledge, and stay at the forefront of industry trends
+                    through meetups, conferences, and workshops.
+                </p>
+                <p className="text-start text-muted-foreground lg:px-6">
+                    If you're looking for a developer who can bring technical
+                    excellence, teamwork, and an eye for process optimization,
+                    I'd love to connect. You can reach me at{' '}
+                    <a
+                        className="no-wrap text-primary dark:text-white"
+                        href="mailto:geomenacontact@gmail.com"
+                        target="blank"
+                        rel="noopener noreferrer"
+                    >
+                        geomenacontact@gmail.com
+                    </a>{' '}
+                    to explore potential collaborations or chat about software
+                    development.
                 </p>
             </div>
         </section>

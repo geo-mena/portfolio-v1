@@ -1,9 +1,10 @@
 'use client';
 
 import { Button } from '@/components/ui/button';
-import { Github, Linkedin } from 'lucide-react';
+
 import { ModeToggle } from './ui/toggle-mode';
 import useActiveSection from '@/hooks/useActiveSection';
+import { Github, Linkedin, FileSymlink } from 'lucide-react';
 
 type NavItem = {
     name: string;
@@ -78,6 +79,7 @@ export default function Nav() {
                 </ul>
             </nav>
             <ul className="flex flex-row gap-6 mt-6 lg:mt-0">
+                <ModeToggle />
                 <Button variant="outline" size="icon">
                     <a
                         href="https://github.com/0xAlexander"
@@ -96,7 +98,15 @@ export default function Nav() {
                         <Linkedin className="h-[1.2rem] w-[1.2rem]" />
                     </a>
                 </Button>
-                <ModeToggle />
+                <Button variant="outline" size="icon">
+                    <a
+                        href="https://linkedin.com/in/0xAlexander"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <FileSymlink className="h-[1.2rem] w-[1.2rem]" />
+                    </a>
+                </Button>
             </ul>
         </header>
     );
