@@ -12,7 +12,7 @@ const useActiveSection = (sectionIds: string[]): string => {
                     }
                 });
             },
-            { threshold: 0.7 }
+            { threshold: [0.3, 0.6, 0.9] }
         );
 
         sectionIds.forEach((sectionId) => {

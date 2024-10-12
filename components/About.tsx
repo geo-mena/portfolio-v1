@@ -3,31 +3,13 @@
 
 export default function About() {
     return (
-        <section id="about" className="scroll-mt-16 ">
+        <section id="about" className="scroll-mt-16">
             <div className="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-background/0 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
                 <h2 className="text-sm font-bold uppercase tracking-widest lg:sr-only">
                     About
                 </h2>
             </div>
             <div className="flex flex-col gap-4">
-                {/* <p className="text-start text-muted-foreground lg:px-6">
-                    As a Full Stack Developer with over 2 years of experience in
-                    the software development industry, I specialize in modern
-                    technologies such as{' '}
-                    <a
-                        className="no-wrap text-primary dark:text-white"
-                        // href="https://vela.exchange"
-                        target="blank"
-                        rel="noopener noreferrer"
-                    >
-                        JavaScript, React, Vue.js, PHP/Laravel, and Node.js.
-                    </a>
-                    My expertise spans from front-end development to
-                    implementing robust architectures and optimizing databases.
-                    I thrive in agile environments, utilizing tools like GitHub,
-                    Notion, and Slack to maintain efficient and collaborative
-                    workflows.
-                </p> */}
                 <p className="text-start  text-muted-foreground lg:px-6">
                     As a Full Stack Developer with over two years of experience,
                     I specialize in building scalable, maintainable, and
@@ -46,11 +28,19 @@ export default function About() {
                 </p>
                 <p className="text-start text-muted-foreground lg:px-6">
                     I thrive in agile environments, working closely with teams
-                    using GitHub, Notion, Slack, and other collaboration tools
-                    to maintain productivity and innovation. My approach is
-                    problem-solving oriented, which allows me to quickly adapt
-                    to new challenges, deliver robust solutions, and
-                    continuously improve development processes.
+                    using{' '}
+                    <a
+                        className="no-wrap text-primary dark:text-white"
+                        // href="https://vela.exchange"
+                        target="blank"
+                        rel="noopener noreferrer"
+                    >
+                        GitHub, Notion, Slack, Microsoft Teams
+                    </a>{' '}
+                    and other collaboration tools to maintain productivity and
+                    innovation. My approach is problem-solving oriented, which
+                    allows me to quickly adapt to new challenges, deliver robust
+                    solutions, and continuously improve development processes.
                 </p>
                 <p className="text-start text-muted-foreground lg:px-6">
                     Passionate about web technologies and the developer
