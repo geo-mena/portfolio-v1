@@ -8,7 +8,7 @@ import {
     CardTitle,
 } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import { ExternalLink, MoveRight } from 'lucide-react';
+import { ExternalLink } from 'lucide-react';
 
 const jobPositions = [
     {
@@ -24,7 +24,7 @@ const jobPositions = [
         timeline: 'Mar 2024 — Present',
         currentPosition: 'Head of Product Design',
         place: 'Vela Exchange',
-        // previousPositions: ['Designer and Front-end Developer'],
+        previousPositions: ['Designer and Front-end Developer'],
         description:
             'Leading the design team for Vela Exchange, a community-first, decentralized perpetuals trading platform. My role involves setting the vision and standards for design excellence, and actively contributing to hands-on product design.',
         skills: [
@@ -112,7 +112,7 @@ export default function ExpCard() {
                 {jobPositions.map((job, index) => (
                     <Card
                         key={index}
-                        className="group lg:p-2 mb-4 flex flex-col lg:flex-row w-full min-h-fit gap-0 lg:gap-5 border-transparent hover:border dark:lg:hover:bg-slate-700/20 lg:hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:hover:drop-shadow-lg lg:hover:bg-slate-100/50 lg:rounded-lg lg:hover:rounded-[0.4rem] cursor-pointer"
+                        className="group lg:p-2 mb-6 flex flex-col lg:flex-row w-full min-h-fit gap-0 lg:gap-5 border-transparent hover:border dark:lg:hover:bg-slate-700/20 lg:hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:hover:drop-shadow-lg lg:hover:bg-slate-100/50 lg:rounded-lg lg:hover:rounded-[0.4rem] cursor-pointer"
                     >
                         <CardHeader className="h-full w-full p-0 mt-1">
                             <CardTitle className="text-xs text-slate-400 whitespace-nowrap">
@@ -138,7 +138,7 @@ export default function ExpCard() {
                             <CardFooter className="p-0 flex flex-wrap gap-2">
                                 {job.skills.map((skill, index) => (
                                     <Badge
-                                        className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300"
+                                        className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 group-hover:bg-teal-400/10"
                                         key={index}
                                     >
                                         {skill}
