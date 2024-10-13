@@ -8,7 +8,7 @@ import {
     CardHeader,
 } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import { MoveUpRight } from 'lucide-react';
+import { Info, MoveUpRight } from 'lucide-react';
 
 const jobProjects = [
     {
@@ -92,7 +92,7 @@ export default function Projects() {
                 </h2>
             </div>
             <>
-                {jobProjects.map((project, index) => (
+                {/* {jobProjects.map((project, index) => (
                     <a
                         key={index}
                         href={project.link}
@@ -127,7 +127,23 @@ export default function Projects() {
                             </CardContent>
                         </Card>
                     </a>
-                ))}
+                ))} */}
+
+                {/* POR AHORA */}
+                <span className="text-center text-slate-500">
+                    <p className="text-sm">
+                        Working on the UI. Check back soon for more updates.But
+                        for now, you can check out my projects on my{' '}
+                        <a
+                            className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 cursor-pointer"
+                            href="https://github.com/geo-mena"
+                            target="blank"
+                            rel="noopener noreferrer"
+                        >
+                            GitHub
+                        </a>{' '}
+                    </p>
+                </span>
             </>
         </section>
     );

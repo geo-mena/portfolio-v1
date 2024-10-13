@@ -11,16 +11,16 @@ export const metadata: Metadata = {
     alternates: {
         canonical: 'https://meikopoulos.com',
     },
-    title: 'Alexander Meikopoulos - Product Designer in AI, Web3, and Finance',
+    title: 'Geovanni Mena - Software Engineer & Web Developer',
     description:
         'Alexander Meikopoulos is a Product designer, developer & founder.',
     keywords:
         'Alexander Meikopoulos, Product Designer, AI, Web3, Finance, User Experience, UI/UX Design, Design Systems, Front-end Development, Decentralized Finance, DeFi, Swoop Exchange, Vela Exchange, Stealth AI Startup, Technology, Innovation, Human-Centered Design',
     openGraph: {
         locale: 'en_US',
-        siteName: 'Alexander Meikopoulos',
+        siteName: 'Geovanni Mena',
         type: 'website',
-        title: 'Alexander Meikopoulos',
+        title: 'Geovanni Mena',
         description:
             'Alexander Meikopoulos is a Product designer, developer & founder.',
         url: 'https://meikopoulos.com',
@@ -33,6 +33,9 @@ export const metadata: Metadata = {
     twitter: {
         card: 'summary_large_image',
         title: 'Alexander Meikopoulos',
+    },
+    icons: {
+        icon: '/datadog.png',
     },
 };
 

@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button';
 
 import { ModeToggle } from './ui/toggle-mode';
 import useActiveSection from '@/hooks/useActiveSection';
-import { Github, Linkedin, FileSymlink } from 'lucide-react';
+import { Github, Linkedin, FileSymlink, File, Send } from 'lucide-react';
 
 type NavItem = {
     name: string;
@@ -100,11 +100,20 @@ export default function Nav() {
                 </Button>
                 <Button variant="outline" size="icon">
                     <a
+                        href="https://linkedin.com/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <File className="h-[1.2rem] w-[1.2rem]" />
+                    </a>
+                </Button>
+                <Button variant="outline" size="icon">
+                    <a
                         href="https://linkedin.com/in/0xAlexander"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <FileSymlink className="h-[1.2rem] w-[1.2rem]" />
+                        <Send  className="h-[1.2rem] w-[1.2rem]" />
                     </a>
                 </Button>
             </ul>
