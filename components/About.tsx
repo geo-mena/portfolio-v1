@@ -1,4 +1,13 @@
 'use client';
+
+import { Send } from 'lucide-react';
+import {
+    Tooltip,
+    TooltipContent,
+    TooltipProvider,
+    TooltipTrigger,
+} from './ui/tooltip';
+
 /* eslint-disable */
 
 export default function About() {
@@ -10,7 +19,7 @@ export default function About() {
                 </h2>
             </div>
             <div className="flex flex-col gap-4">
-                <p className="text-start  text-muted-foreground lg:px-6">
+                <p className="text-start  text-muted-foreground lg:px-2">
                     As a Full Stack Developer with over two years of experience,
                     I specialize in building scalable, maintainable, and
                     efficient web applications using modern technologies like{' '}
@@ -26,7 +35,7 @@ export default function About() {
                     architecture, with a strong focus on optimizing databases
                     and ensuring seamless user experiences.
                 </p>
-                <p className="text-start text-muted-foreground lg:px-6">
+                <p className="text-start text-muted-foreground lg:px-2">
                     I thrive in agile environments, working closely with teams
                     using{' '}
                     <a
@@ -42,24 +51,36 @@ export default function About() {
                     allows me to quickly adapt to new challenges, deliver robust
                     solutions, and continuously improve development processes.
                 </p>
-                <p className="text-start text-muted-foreground lg:px-6">
+                <p className="text-start text-muted-foreground lg:px-2">
                     Passionate about web technologies and the developer
                     community, I actively seek out opportunities to learn, share
                     knowledge, and stay at the forefront of industry trends
                     through meetups, conferences, and workshops.
                 </p>
-                <p className="text-start text-muted-foreground lg:px-6">
+                <p className="text-start text-muted-foreground lg:px-2">
                     If you're looking for a developer who can bring technical
                     excellence, teamwork, and an eye for process optimization,
                     I'd love to connect. You can reach me at{' '}
-                    <a
-                        className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300"
-                        href="mailto:geomenacontact@gmail.com"
-                        target="blank"
-                        rel="noopener noreferrer"
-                    >
-                        geomenacontact@gmail.com
-                    </a>{' '}
+                    <TooltipProvider>
+                        <Tooltip delayDuration={0}>
+                            <TooltipTrigger asChild>
+                                <a
+                                    className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300"
+                                    href="mailto:geomenacontact@gmail.com"
+                                    target="blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    geomenacontact@gmail.com
+                                </a>
+                            </TooltipTrigger>
+                            <TooltipContent>
+                                <span className="flex items-center gap-2">
+                                    <Send className="h-4 w-4" />
+                                    <span>Send me an email</span>
+                                </span>
+                            </TooltipContent>
+                        </Tooltip>{' '}
+                    </TooltipProvider>
                     to explore potential collaborations or chat about software
                     development.
                 </p>
