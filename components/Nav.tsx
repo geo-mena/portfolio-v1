@@ -46,13 +46,13 @@ export default function Nav() {
     return (
         <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24 flex flex-col lg:gap-4">
             <div className="flex flex-col gap-4 lg:pr-24 mt-6 lg:mt-0">
-                <h1 className="text-[42px] font-bold lg:text-start">
+                <h1 className="text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl">
                     Geovanni Mena
                 </h1>
                 <h2 className="text-xl lg:text-start">
                     Software & Web Developer
                 </h2>
-                <p className="text-lg lg:text-start text-muted-foreground">
+                <p className="text-base lg:text-start text-muted-foreground max-w-sm">
                     I build pixel-perfect, engaging, and accessible digital
                     experiences.
                 </p>

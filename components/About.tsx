@@ -15,7 +15,7 @@ export default function About() {
                     I specialize in building scalable, maintainable, and
                     efficient web applications using modern technologies like{' '}
                     <a
-                        className="no-wrap text-primary dark:text-white"
+                        className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300"
                         // href="https://vela.exchange"
                         target="blank"
                         rel="noopener noreferrer"
@@ -30,7 +30,7 @@ export default function About() {
                     I thrive in agile environments, working closely with teams
                     using{' '}
                     <a
-                        className="no-wrap text-primary dark:text-white"
+                        className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300"
                         // href="https://vela.exchange"
                         target="blank"
                         rel="noopener noreferrer"
@@ -53,7 +53,7 @@ export default function About() {
                     excellence, teamwork, and an eye for process optimization,
                     I'd love to connect. You can reach me at{' '}
                     <a
-                        className="no-wrap text-primary dark:text-white"
+                        className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300"
                         href="mailto:geomenacontact@gmail.com"
                         target="blank"
                         rel="noopener noreferrer"
