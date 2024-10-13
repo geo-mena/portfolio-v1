@@ -112,7 +112,7 @@ export default function ExpCard() {
                 {jobPositions.map((job, index) => (
                     <Card
                         key={index}
-                        className="lg:p-2 mb-4 flex flex-col lg:flex-row w-full min-h-fit gap-0 lg:gap-5 border-transparent hover:border dark:lg:hover:bg-slate-700/20 lg:hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:hover:drop-shadow-lg lg:hover:bg-slate-100/50 lg:rounded-lg lg:hover:rounded-[0.4rem] cursor-pointer"
+                        className="group lg:p-2 mb-4 flex flex-col lg:flex-row w-full min-h-fit gap-0 lg:gap-5 border-transparent hover:border dark:lg:hover:bg-slate-700/20 lg:hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:hover:drop-shadow-lg lg:hover:bg-slate-100/50 lg:rounded-lg lg:hover:rounded-[0.4rem] cursor-pointer"
                     >
                         <CardHeader className="h-full w-full p-0 mt-1">
                             <CardTitle className="text-xs text-slate-400 whitespace-nowrap">
@@ -120,7 +120,7 @@ export default function ExpCard() {
                             </CardTitle>
                         </CardHeader>
                         <CardContent className="flex flex-col p-0">
-                            <h3 className="font-medium leading-snug text-slate-200">
+                            <h3 className="font-medium leading-snug text-slate-200 group-hover:text-teal-300 focus-visible:text-teal-300">
                                 {job.currentPosition} • {job.place}
                                 <ExternalLink className="inline-block ml-1 h-4 w-4" />
                             </h3>
