@@ -24,7 +24,7 @@ export default function About() {
                     I specialize in building scalable, maintainable, and
                     efficient web applications using modern technologies like{' '}
                     <a
-                        className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300"
+                        className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 cursor-pointer"
                         // href="https://vela.exchange"
                         target="blank"
                         rel="noopener noreferrer"
@@ -39,7 +39,7 @@ export default function About() {
                     I thrive in agile environments, working closely with teams
                     using{' '}
                     <a
-                        className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300"
+                        className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 cursor-pointer"
                         // href="https://vela.exchange"
                         target="blank"
                         rel="noopener noreferrer"

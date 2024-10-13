@@ -50,7 +50,7 @@ export default function Nav() {
                     Geovanni Mena
                 </h1>
                 <h2 className="text-xl lg:text-start">
-                    Software & Web Developer
+                    Software Engineer & Web Developer
                 </h2>
                 <p className="text-base lg:text-start text-muted-foreground max-w-sm">
                     I build pixel-perfect, engaging, and accessible digital
@@ -79,7 +79,7 @@ export default function Nav() {
                 </ul>
             </nav>
             <ul className="flex flex-row gap-6 mt-6 lg:mt-0">
-                <ModeToggle />
+                {/* <ModeToggle /> */}
                 <Button variant="outline" size="icon">
                     <a
                         href="https://github.com/0xAlexander"
