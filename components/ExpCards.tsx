@@ -45,7 +45,7 @@ const jobPositions = [
         ],
     },
     {
-        timeline: 'may 2022 — JAN 2023',
+        timeline: 'MAY 2022 — JAN 2023',
         currentPosition: 'Front End Developer',
         place: 'FractalSoft',
         previousPositions: [''],
@@ -79,7 +79,7 @@ export default function ExpCard() {
                 {jobPositions.map((job, index) => (
                     <Card
                         key={index}
-                        className="group lg:p-2 mb-6 flex flex-col lg:flex-row w-full min-h-fit gap-0 lg:gap-5 border-transparent hover:border dark:lg:hover:bg-slate-700/20 lg:hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:hover:drop-shadow-lg lg:hover:bg-slate-100/50 lg:rounded-lg lg:hover:rounded-[0.4rem] cursor-pointer"
+                        className="group lg:p-3 mb-6 flex flex-col lg:flex-row w-full min-h-fit gap-0 lg:gap-5 border-transparent hover:border dark:lg:hover:bg-slate-700/20 lg:hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:hover:drop-shadow-lg lg:hover:bg-slate-100/50 lg:rounded-lg lg:hover:rounded-[0.4rem] cursor-pointer"
                     >
                         <CardHeader className="h-full w-full p-0 mt-1">
                             <CardTitle className="text-xs text-slate-400 whitespace-nowrap">
@@ -116,7 +116,7 @@ export default function ExpCard() {
                     </Card>
                 ))}
             </>
-            <div className="lg:px-12 mt-12">
+            <div className="lg:px-3 mt-6">
                 <a
                     href="mailto:alexander@meikopoulos.com"
                     target="_blank"
@@ -124,7 +124,7 @@ export default function ExpCard() {
                     className="inline-flex items-center font-medium leading-tight text-foreground group"
                 >
                     <span className="text-slate-200 hover:text-teal-300 focus-visible:text-teal-300">
-                        View Full Résumé
+                        View Full Resume
                     </span>
                     <ExternalLink className="h-4 w-4 ml-1" />
                 </a>
