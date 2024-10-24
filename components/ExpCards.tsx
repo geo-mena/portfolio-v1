@@ -8,7 +8,7 @@ import {
     CardTitle,
 } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import { ExternalLink } from 'lucide-react';
+import { ArrowUpRight, ExternalLink } from 'lucide-react';
 
 const jobPositions = [
     {
@@ -89,7 +89,7 @@ export default function ExpCard() {
                         <CardContent className="flex flex-col p-0">
                             <h3 className="font-medium leading-snug text-slate-200 group-hover:text-teal-300 focus-visible:text-teal-300">
                                 {job.currentPosition} • {job.place}
-                                <ExternalLink className="inline-block ml-1 h-4 w-4" />
+                                <ArrowUpRight className="inline-block ml-1 h-4 w-4 transition-transform duration-300 ease-in-out group-hover:translate-x-1 group-hover:-translate-y-1" />
                             </h3>
                             {/* {job.previousPositions.map((position, index) => (
                                 <p
