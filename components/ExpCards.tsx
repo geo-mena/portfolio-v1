@@ -118,7 +118,8 @@ export default function ExpCard() {
             </>
             <div className="lg:px-3 mt-6">
                 <a
-                    href="mailto:alexander@meikopoulos.com"
+                    //href="mailto:alexander@meikopoulos.com"
+                    href="https://flowcv.com/resume/ov1tp5cb45"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center font-medium leading-tight text-foreground group"
