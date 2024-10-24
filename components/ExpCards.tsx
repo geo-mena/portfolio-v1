@@ -126,7 +126,7 @@ export default function ExpCard() {
                     <span className="text-slate-200 hover:text-teal-300 focus-visible:text-teal-300">
                         View Full Resume
                     </span>
-                    <ExternalLink className="h-4 w-4 ml-1" />
+                    <ArrowUpRight className="inline-block ml-1 h-4 w-4 transition-transform duration-300 ease-in-out group-hover:translate-x-1 group-hover:-translate-y-1" />
                 </a>
             </div>
         </section>
